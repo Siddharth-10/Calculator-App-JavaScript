@@ -1,0 +1,99 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: black;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(background.jpg);
+    margin: 20px auto;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: azure;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 18px 3px rgba(25, 23, 23, 0.9), -4px 1px 18px 3px rgba(25, 23, 23, 0.9)
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #919191;
+}
+
+#output{
+    font-size: 32px;
+    text-align: right;
+    margin: 10px 20px;
+    height: 60px;
+    
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator,.number,.empty{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number,.empty{
+    background-color: azure;
+}
+
+.operator,.number{
+    cursor: pointer;
+}
+
+.number:active,.empty:active,.operator:active{
+    font-size: 13px;
+}
+
+.number:focus,.operator:focus,.empty:focus{
+    outline: 0px;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: aqua;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color:darkorange;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color:cornflowerblue;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color:darkmagenta;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color:forestgreen;
+}
